@@ -1,0 +1,6 @@
+https://www.tutorialspoint.com/cplusplus/cpp_storage_classes.htm
+auto
+register
+static
+extern
+mutable
