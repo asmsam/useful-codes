@@ -1,0 +1,534 @@
+Date: Sat, 27 Apr 2024 20:16:01 +1000 (AEST)
+Message-ID: <382796358.14608.1714212961534@uxbriconf01.csgicorp.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_14607_1733479918.1714212961532"
+
+------=_Part_14607_1733479918.1714212961532
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Building multi instance MMS image</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Building multi instance MMS image</h1>
+    <div class=3D"Section1">
+        <p class=3D"auto-cursor-target"><style type=3D"text/css">/*<![CDATA=
+[*/
+div.rbtoc1714212961485 {padding: 0px;}
+div.rbtoc1714212961485 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1714212961485 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1714212961485">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#BuildingmultiinstanceMMSimage-Intent">Intent</a></li>=20
+<li><a href=3D"#BuildingmultiinstanceMMSimage-Configuration">Configuration<=
+/a></li>=20
+<li><a href=3D"#BuildingmultiinstanceMMSimage-Dockerfileanddocker-compose.y=
+amlfilecontent">Dockerfile and docker-compose.yaml file content</a></li>=20
+<li><a href=3D"#BuildingmultiinstanceMMSimage-CommandsIran">Commands I ran<=
+/a></li>=20
+<li><a href=3D"#BuildingmultiinstanceMMSimage-ErrorLog">Error Log</a></li>=
+=20
+</ul>=20
+</div>
+<p></p>
+<h1 class=3D"auto-cursor-target" id=3D"BuildingmultiinstanceMMSimage-Intent=
+">Intent&nbsp;</h1>
+<p class=3D"auto-cursor-target">We will need to setup 3 app and 1 db infra =
+using MMS image,</p>
+<h1 class=3D"auto-cursor-target" id=3D"BuildingmultiinstanceMMSimage-Config=
+uration">Configuration</h1>
+<p>We are trying to pull 3 app image and 1 db image from ECR csg/scde/sv.</=
+p>
+<p>we need to checkout of <span style=3D"color: rgb(23,43,77);">svtest-upgr=
+adeproc on the top of 3+1 images and push it to ECR csg/ct/sv_upgrade</span=
+></p>
+<h1 id=3D"BuildingmultiinstanceMMSimage-Dockerfileanddocker-compose.yamlfil=
+econtent">Dockerfile and docker-compose.yaml file content</h1>
+<div id=3D"expander-2128430620" class=3D"expand-container">
+<div id=3D"expander-control-2128430620" class=3D"expand-control" aria-expan=
+ded=3D"true">
+<span class=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-dow=
+n"></span><span class=3D"expand-control-text">Content of Dockerfile</span>
+</div>
+<div id=3D"expander-content-2128430620" class=3D"expand-content">
+<p>ARG OSVER<br>ARG SV_MAJOR_VER<br>FROM <a href=3D"http://785148479268.dkr=
+.ecr.ap-southeast-2.amazonaws.com/csg/scde/sv:latest-svmms-app-main-11.00.1=
+3.01" class=3D"external-link" rel=3D"nofollow">785148479268.dkr.ecr.ap-sout=
+heast-2.amazonaws.com/csg/scde/sv:latest-svmms-app-main-11.00.13.01</a><br>=
+ARG CBSVNBRANCH<br>ARG PESVNBRANCH<br>ARG PEWEBSVNBRANCH<br>ARG STSVNBRANCH=
+<br>ARG SVNSTREV<br>ARG SVNCBREV<br>ARG SVNPEREV<br>ARG SVNWEBREV<br>ARG SV=
+ORAGRP</p>
+<p>USER root<br>COPY --chown=3Dsvwdev:svw * /svw/svwdev/<br>COPY --chown=3D=
+svwdev:svw * /svw/svwdev/<br>RUN mkdir -p /shared &amp;&amp; chmod 777 /sha=
+red<br>ENV LOGNAME=3Dsvwdev PESVNBRANCH=3D"${PESVNBRANCH}" PEWEBSVNBRANCH=
+=3D"${PEWEBSVNBRANCH}" \<br>&nbsp; &nbsp; STSVNBRANCH=3D"${STSVNBRANCH}" CB=
+SVNBRANCH=3D"${CBSVNBRANCH}" \<br>&nbsp; &nbsp; SVNSTREV=3D"${SVNSTREV}" SV=
+NCBREV=3D"${SVNCBREV}" SVNPEREV=3D"${SVNPEREV}" \<br>&nbsp; &nbsp; SVNWEBRE=
+V=3D"${SVNWEBREV}"</p>
+<p>USER svwdev<br>WORKDIR /svw/svwdev</p>
+</div>
+</div>
+<div id=3D"expander-1694615779" class=3D"expand-container">
+<div id=3D"expander-control-1694615779" class=3D"expand-control" aria-expan=
+ded=3D"true">
+<span class=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-dow=
+n"></span><span class=3D"expand-control-text">Content of docker-compose.yam=
+l </span>
+</div>
+<div id=3D"expander-content-1694615779" class=3D"expand-content">
+<p>version: '3.2'</p>
+<p>services:<br>&nbsp; dbhost:<br>&nbsp; &nbsp; hostname: dbhost<br>&nbsp; =
+&nbsp; image: <a href=3D"http://785148479268.dkr.ecr.ap-southeast-2.amazona=
+ws.com/csg/scde/sv:latest-svmms-db-main-11.00.13.01" class=3D"external-link=
+" rel=3D"nofollow">785148479268.dkr.ecr.ap-southeast-2.amazonaws.com/csg/sc=
+de/sv:latest-svmms-db-main-11.00.13.01</a><br>&nbsp; &nbsp; environment:<br=
+>&nbsp; &nbsp; &nbsp; - START_DB=3D1<br>&nbsp; &nbsp; labels:<br>&nbsp; &nb=
+sp; &nbsp; OSVER: "${OSVER}"<br>&nbsp; &nbsp; &nbsp; SV_MAJOR_VER: "${SV_MA=
+JOR_VER}"<br>&nbsp; &nbsp; &nbsp; SVORAGRP: "${SVORAGRP}"<br>&nbsp; &nbsp; =
+&nbsp; CBSVNBRANCH: "${CBSVNBRANCH}"<br>&nbsp; &nbsp; &nbsp; PESVNBRANCH: "=
+${PESVNBRANCH}"<br>&nbsp; &nbsp; &nbsp; PEWEBSVNBRANCH: "${PEWEBSVNBRANCH}"=
+<br>&nbsp; &nbsp; &nbsp; STSVNBRANCH: "${STSVNBRANCH}"<br>&nbsp; &nbsp; &nb=
+sp; SVNSTREV: "${SVNSTREV}"<br>&nbsp; &nbsp; &nbsp; SVNCBREV: "${SVNCBREV}"=
+<br>&nbsp; &nbsp; &nbsp; SVNPEREV: "${SVNPEREV}"<br>&nbsp; &nbsp; &nbsp; SV=
+NWEBREV: "${SVNWEBREV}"<br>&nbsp; &nbsp; &nbsp; BUILD_URL: "{BUILD_URL}"<br=
+>&nbsp; &nbsp; &nbsp; PACKAGE_BUILD_URL: "{PACKAGE_BUILD_URL}"<br>&nbsp; &n=
+bsp; tmpfs:<br>&nbsp; &nbsp; &nbsp; - /run<br>&nbsp; &nbsp; volumes:<br>&nb=
+sp; &nbsp; &nbsp; - /etc/<a href=3D"http://localtime/etc/localtime:ro" clas=
+s=3D"external-link" rel=3D"nofollow">localtime:/etc/localtime:ro</a></p>
+<p>&nbsp; appdev1:<br>&nbsp; &nbsp; hostname: appdev1<br>&nbsp; &nbsp; imag=
+e: <a href=3D"http://785148479268.dkr.ecr.ap-southeast-2.amazonaws.com/csg/=
+scde/sv:latest-svmms-app-main-11.00.13.01" class=3D"external-link" rel=3D"n=
+ofollow">785148479268.dkr.ecr.ap-southeast-2.amazonaws.com/csg/scde/sv:late=
+st-svmms-app-main-11.00.13.01</a><br>&nbsp; &nbsp; ports:<br>&nbsp; &nbsp; =
+&nbsp; - "50071"<br>&nbsp; &nbsp; shm_size: 128mb<br>&nbsp; &nbsp; environm=
+ent:<br>&nbsp; &nbsp; &nbsp; - LOGNAME=3Dsvwdev<br>&nbsp; &nbsp; &nbsp; - F=
+ORCE_LOGNAME=3Dsvwdev<br>&nbsp; &nbsp; &nbsp; - START_PCSD=3D1<br>&nbsp; &n=
+bsp; &nbsp; - DOCKER_HOST=3D<br>&nbsp; &nbsp; &nbsp; - BUILD_ID<br>&nbsp; &=
+nbsp; &nbsp; - DOCKER_CT=3D1<br>&nbsp; &nbsp; &nbsp; - JENKINS_BUILD_TAG<br=
+>&nbsp; &nbsp; &nbsp; - DISPLAY=3D:99.0<br>&nbsp; &nbsp; &nbsp; - PACKAGE_B=
+UILD_URL<br>&nbsp; &nbsp; &nbsp; - JENKINS_URL<br>&nbsp; &nbsp; &nbsp; - ID=
+ENTIFIER<br>&nbsp; &nbsp; &nbsp; - TESTDB_BUILD_TARGET<br>&nbsp; &nbsp; &nb=
+sp; - BUILD_URL<br>&nbsp; &nbsp; &nbsp; - TEST_TYPE<br>&nbsp; &nbsp; &nbsp;=
+ - TEST_MODULE<br>&nbsp; &nbsp; &nbsp; - COMPOSE_PROJECT_NAME<br>&nbsp; &nb=
+sp; &nbsp; - REMOTE_REGISTRY<br>&nbsp; &nbsp; cap_add:<br>&nbsp; &nbsp; &nb=
+sp; - NET_ADMIN<br>&nbsp; &nbsp; tmpfs:<br>&nbsp; &nbsp; &nbsp; - /run<br>&=
+nbsp; &nbsp; depends_on:<br>&nbsp; &nbsp; &nbsp; - dbhost</p>
+<p>&nbsp; appdev2:<br>&nbsp; &nbsp; hostname: appdev2<br>&nbsp; &nbsp; buil=
+d:<br>&nbsp; &nbsp; &nbsp; &nbsp;context: .<br>&nbsp; &nbsp; &nbsp; &nbsp;d=
+ockerfile: Dockerfile<br>&nbsp; &nbsp; ports:<br>&nbsp; &nbsp; &nbsp; - "50=
+072"<br>&nbsp; &nbsp; shm_size: 128mb<br>&nbsp; &nbsp; environment:<br>&nbs=
+p; &nbsp; &nbsp; - LOGNAME=3Dsvwdev<br>&nbsp; &nbsp; &nbsp; - FORCE_LOGNAME=
+=3Dsvwdev<br>&nbsp; &nbsp; &nbsp; - START_PCSD=3D1<br>&nbsp; &nbsp; cap_add=
+:<br>&nbsp; &nbsp; &nbsp; - NET_ADMIN<br>&nbsp; &nbsp; tmpfs:<br>&nbsp; &nb=
+sp; &nbsp; - /run</p>
+<p>&nbsp; appdev3:<br>&nbsp; &nbsp; hostname: appdev3<br>&nbsp; &nbsp; buil=
+d:<br>&nbsp; &nbsp; &nbsp; &nbsp;context: .<br>&nbsp; &nbsp; &nbsp; &nbsp;d=
+ockerfile: Dockerfile<br>&nbsp; &nbsp; ports:<br>&nbsp; &nbsp; &nbsp; - "50=
+073"<br>&nbsp; &nbsp; shm_size: 128mb<br>&nbsp; &nbsp; environment:<br>&nbs=
+p; &nbsp; &nbsp; - LOGNAME=3Dsvwdev<br>&nbsp; &nbsp; &nbsp; - FORCE_LOGNAME=
+=3Dsvwdev<br>&nbsp; &nbsp; &nbsp; - START_PCSD=3D1<br>&nbsp; &nbsp; cap_add=
+:<br>&nbsp; &nbsp; &nbsp; - NET_ADMIN<br>&nbsp; &nbsp; tmpfs:<br>&nbsp; &nb=
+sp; &nbsp; - /run</p>
+</div>
+</div>
+<h1 id=3D"BuildingmultiinstanceMMSimage-CommandsIran">Commands I ran</h1>
+<p>docker-compose up --build</p>
+<h1 id=3D"BuildingmultiinstanceMMSimage-ErrorLog">Error Log</h1>
+<p>once the pull is over it by default start installing and rebuild the ima=
+ge in the container and start failing with below</p>
+<div id=3D"expander-1130790581" class=3D"expand-container">
+<div id=3D"expander-control-1130790581" class=3D"expand-control" aria-expan=
+ded=3D"true">
+<span class=3D"expand-icon aui-icon aui-icon-small aui-iconfont-chevron-dow=
+n"></span><span class=3D"expand-control-text">Error logs</span>
+</div>
+<div id=3D"expander-content-1130790581" class=3D"expand-content">
+<p>ESC[33mappdev1_1 &nbsp;|ESC[0m Step [1]: Install the SIL code<br>ESC[33m=
+appdev1_1 &nbsp;|ESC[0m &lt;&lt; Making file .sil_version to server &gt;&gt=
+;<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[1]: Entering directory '/svw/svwde=
+v/imp/dev/src/deli/sil/env'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[1]: Noth=
+ing to be done for 'all'.<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[1]: Leavin=
+g directory '/svw/svwdev/imp/dev/src/deli/sil/env'<br>ESC[33mappdev1_1 &nbs=
+p;|ESC[0m make[1]: Entering directory '/svw/svwdev/imp/dev/src/deli/sil/mak=
+e'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[1]: Nothing to be done for 'all'.=
+<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[1]: Leaving directory '/svw/svwdev/=
+imp/dev/src/deli/sil/make'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[1]: Enter=
+ing directory '/svw/svwdev/imp/dev/src/deli/sil/perlmod'<br>ESC[33mappdev1_=
+1 &nbsp;|ESC[0m make[2]: Entering directory '/svw/svwdev/imp/dev/src/deli/s=
+il/perlmod/Date'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[2]: Nothing to be d=
+one for 'all'.<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[2]: Leaving directory=
+ '/svw/svwdev/imp/dev/src/deli/sil/perlmod/Date'<br>ESC[33mappdev1_1 &nbsp;=
+|ESC[0m make[2]: Entering directory '/svw/svwdev/imp/dev/src/deli/sil/perlm=
+od/Text-CSV'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[2]: Nothing to be done =
+for 'all'.<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[2]: Leaving directory '/s=
+vw/svwdev/imp/dev/src/deli/sil/perlmod/Text-CSV'<br>ESC[33mappdev1_1 &nbsp;=
+|ESC[0m make[2]: Entering directory '/svw/svwdev/imp/dev/src/deli/sil/perlm=
+od/MIME'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[2]: Nothing to be done for =
+'all'.<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[2]: Leaving directory '/svw/s=
+vwdev/imp/dev/src/deli/sil/perlmod/MIME'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m =
+make[2]: Entering directory '/svw/svwdev/imp/dev/src/deli/sil/perlmod/lwp'<=
+br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[3]: Entering directory '/svw/svwdev/=
+imp/dev/src/deli/sil/perlmod/lwp/Net-SSLeay'<br>ESC[33mappdev1_1 &nbsp;|ESC=
+[0m make[3]: Nothing to be done for 'all'.<br>ESC[33mappdev1_1 &nbsp;|ESC[0=
+m make[3]: Leaving directory '/svw/svwdev/imp/dev/src/deli/sil/perlmod/lwp/=
+Net-SSLeay'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[3]: Entering directory '=
+/svw/svwdev/imp/dev/src/deli/sil/perlmod/lwp/IO-Socket-SSL'<br>ESC[33mappde=
+v1_1 &nbsp;|ESC[0m make[3]: Nothing to be done for 'all'.<br>ESC[33mappdev1=
+_1 &nbsp;|ESC[0m make[3]: Leaving directory '/svw/svwdev/imp/dev/src/deli/s=
+il/perlmod/lwp/IO-Socket-SSL'</p>
+<p>.</p>
+<p>.</p>
+<p>.</p>
+<p>SC[33mappdev1_1 &nbsp;|ESC[0m make[1]: Entering directory '/svw/svwdev/i=
+mp/dev/src/deli/sil/peweb'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[1]: Nothi=
+ng to be done for 'install'.<br>ESC[33mappdev1_1 &nbsp;|ESC[0m make[1]: Lea=
+ving directory '/svw/svwdev/imp/dev/src/deli/sil/peweb'<br>ESC[33mappdev1_1=
+ &nbsp;|ESC[0mESC[33mappdev1_1 &nbsp;|ESC[0m 2023-06-06 15:30:29,535:INFO:d=
+eploy:81:install_stage_2:Dev: sil-&gt;install_stage_2 completed<br>ESC[33ma=
+ppdev1_1 &nbsp;|ESC[0m 2023-06-06 15:30:29,539:INFO:deploy:85:install_stage=
+_3:Dev: sil-&gt;install_stage_3<br>ESC[33mappdev1_1 &nbsp;|ESC[0m 2023-06-0=
+6 15:30:29,539:DEBUG:sh:95:cmd:cmd:<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; set -e<br>ESC[33mappdev1_1 &nbsp;|ESC[=
+0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; echo '=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D'<b=
+r>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+echo 'Stage [3]: SIL: Setting up your Environment'<br>ESC[33mappdev1_1 &nbs=
+p;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; echo '=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m<br>ESC[33mappdev1_1 &nbsp;|ESC[0m=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; echo 'Step [1]: Create a Makefil=
+e for the PS development area'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; cd $ATAI_SRC/devel &amp;&amp; createf Makef=
+ile<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; perl -pi -e 's/^BIN =3D/BIN =3D ataidevenv/g' $ATAI_SRC/devel/Makefile=
+<br>ESC[33mappdev1_1 &nbsp;|ESC[0m<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; echo 'Step [2]: Create tables area'<br>=
+ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mk=
+dir -p $ATAI_SRC/tables<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; cp $ATAI_SRC/deli/sil/tables/Makefile.expl $ATAI_S=
+RC/tables/Makefile<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; chmod u+w $ATAI_SRC/tables/Makefile<br>ESC[33mappdev1_1=
+ &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cp $ATAI_SRC/deli/=
+sil/tables/*.size $ATAI_SRC/tables/.<br>ESC[33mappdev1_1 &nbsp;|ESC[0m<br>E=
+SC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ech=
+o ' Step [3] PEWEB'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; mkdir -p $ATAI_SRC/peweb<br>ESC[33mappdev1_1 &nbsp;|ES=
+C[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; createf $ATAI_SRC/peweb/Make=
+file<br>ESC[33mappdev1_1 &nbsp;|ESC[0m<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; echo 'Step [4] &nbsp;Create a workf=
+low area'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; mkdir -p $ATAI_SRC/workflow<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; createf $ATAI_SRC/workflow/Makefile=
+<br>ESC[33mappdev1_1 &nbsp;|ESC[0m<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; echo 'Step [5] Create the main source c=
+ode development Makefile'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; createf $ATAI_SRC/Makefile<br>ESC[33mappdev1_1 &=
+nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; perl -pi -e 's/^RELS=
+RCDIRS =3D/RELSRCDIRS =3D tables workflow peweb/g' $ATAI_SRC/Makefile<br>ES=
+C[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; perl=
+ -pi -e 's/^SRCDIRS =3D/SRCDIRS =3D devel/g' $ATAI_SRC/Makefile<br>ESC[33ma=
+ppdev1_1 &nbsp;|ESC[0m<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; echo 'Step [6] Install all the files added to $ATAI=
+_SRC/Makefile'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; cd $ATAI_SRC &amp;&amp; make<br>ESC[33mappdev1_1 &nbsp;|ESC=
+[0m<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; echo 'Step [7] Install the SIL messages'<br>ESC[33mappdev1_1 &nbsp;|ES=
+C[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cd $ATAI_SRC/deli/sil &amp;&=
+amp; make messages<br>ESC[33mappdev1_1 &nbsp;|ESC[0m<br>ESC[33mappdev1_1 &n=
+bsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; echo 'Step [8]=
+ Install the SIL database views for CB and PE'<br>ESC[33mappdev1_1 &nbsp;|E=
+SC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if [ -f $ATAI_REL_SERVER_CO=
+NFIG/atai_generate_pe_views.sql ]; then<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mv -f $ATAI_REL_SERV=
+ER_CONFIG/atai_generate_pe_views.sql &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $ATAI_REL_SERVER_CONFIG/atai_ge<br>n=
+erate_pe_views.sql.temp</p>
+<p>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ fi<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; generate_ev_views<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; generate_pe_views<br>ESC[33mappdev1_1 &nbsp;|ESC[0m=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if [ -f $ATAI_REL_SERVER_CONFIG/=
+atai_generate_pe_views.sql ]; then<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; mv -f $ATAI_REL_SERVER_CO=
+NFIG/atai_generate_pe_views.sql &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $ATAI_REL_SERVER_CONFIG/atai_generate_pe_=
+views.sql.temp<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp=
+; &nbsp; &nbsp; fi<br>ESC[33mappdev1_1 &nbsp;|ESC[0m<br>ESC[33mappdev1_1 &n=
+bsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; echo ' Step [9] Sync =
+up the database'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; dbsync || true<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; dbsync || true<br>ESC[33mappdev1_1 &nbsp;=
+|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; dbsync<br>ESC[33mappdev1_=
+1 &nbsp;|ESC[0m<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; echo ' Step [10] Setup the Singleview database audit confi=
+g items'<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp; config_audit<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; atai_dbtrigger<br>ESC[33mappdev1_1 &nbsp;|ESC[0m<br=
+>ESC[33mappdev1_1 &nbsp;|ESC[0m 2023-06-06 15:30:29,550:ERROR:sh:122:cmd:er=
+r: =3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D<br>ESC[33mappdev1_1 &nbsp;|ESC[0m Stage [3]: SIL: =
+Setting up your Environment<br>ESC[33mappdev1_1 &nbsp;|ESC[0m =3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D<br>ESC[33mappdev1_1 &nbsp;|ESC[0m Step [1]: Create a Makefile for=
+ the PS development area<br>ESC[33mappdev1_1 &nbsp;|ESC[0m getlogin: No suc=
+h device or address<br>ESC[33mappdev1_1 &nbsp;|ESC[0m createf: Makefile alr=
+eady exists<br>ESC[33mappdev1_1 &nbsp;|ESC[0m<br>ESC[33mappdev1_1 &nbsp;|ES=
+C[0m Traceback (most recent call last):<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &=
+nbsp; File "/svw/svwdev/.pyenv/lib64/python3.6/site-packages/install/svi_in=
+stall.py", line 335, in main<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp=
+; install(args)<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; File "/svw/svwdev/=
+.pyenv/lib64/python3.6/site-packages/install/svi_install.py", line 320, in =
+install<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; install_prereq_modu=
+les(prjcfg, state, config)<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; File "/=
+svw/svwdev/.pyenv/lib64/python3.6/site-packages/install/svi_install.py", li=
+ne 253, in install_prereq_modules<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; =
+&nbsp; modules_order_and_install(prjcfg, inst_modules, state, config, Insta=
+llType.Prereq.value)<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; File "/svw/sv=
+wdev/.pyenv/lib64/python3.6/site-packages/install/svi_install.py", line 248=
+, in modules_order_and_install &nbsp; &nbsp; &nbsp;<br>ESC[33mappdev1_1 &nb=
+sp;|ESC[0m &nbsp; &nbsp; modules_install(ordered_modules, type)<br>ESC[33ma=
+ppdev1_1 &nbsp;|ESC[0m &nbsp; File "/svw/svwdev/.pyenv/lib64/python3.6/site=
+-packages/install/svi_install.py", line 240, in modules_install<br>ESC[33ma=
+ppdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; mod.install()<br>ESC[33mappdev1_1 &nbs=
+p;|ESC[0m &nbsp; File "/svw/svwdev/.pyenv/lib64/python3.6/site-packages/ins=
+tall/modules/sil/deploy.py", line 357, in install<br>ESC[33mappdev1_1 &nbsp=
+;|ESC[0m &nbsp; &nbsp; self.install_stage_3()<br>ESC[33mappdev1_1 &nbsp;|ES=
+C[0m &nbsp; File "/svw/svwdev/.pyenv/lib64/python3.6/site-packages/install/=
+modules/sil/deploy.py", line 141, in install_stage_3<br>ESC[33mappdev1_1 &n=
+bsp;|ESC[0m &nbsp; &nbsp; ''')<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; Fil=
+e "/svw/svwdev/.pyenv/lib64/python3.6/site-packages/install/common/sh.py", =
+line 140, in cmd_with_exit<br>ESC[33mappdev1_1 &nbsp;|ESC[0m &nbsp; &nbsp; =
+sys.exit(returncode)<br>ESC[33mappdev1_1 &nbsp;|ESC[0m SystemExit: 1<br>ESC=
+[33mappdev1_1 &nbsp;|ESC[0m Error: 1</p>
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_14607_1733479918.1714212961532--
